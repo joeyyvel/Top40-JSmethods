@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="dev-header" style="background-color: red">
+      <h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+        consequatur delectus aut facere minus? Totam omnis at nulla molestias
+        autem.
+      </h1>
+    </div>
+
+    <div class="main-container">
+      <div class="left-menu">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+        necessitatibus incidunt maiores molestiae optio obcaecati animi dolor id
+        natus ipsum consequuntur nostrum nemo ratione alias, labore nam tenetur,
+        illum porro officiis dolores accusamus est fugit, ex ab! Voluptatum
+        veritatis, labore, odio qui quod cumque perspiciatis voluptates
+        consectetur sint beatae molestias, mollitia deleniti at optio
+        accusantium quam ullam sequi in necessitatibus doloribus aliquam alias?
+        Voluptatem quas nobis tenetur. Blanditiis eos voluptatem quas, eaque
+        accusantium dicta deserunt a porro eligendi nulla expedita consectetur
+        omnis earum, nobis similique aspernatur ea quo voluptates! Temporibus,
+        autem explicabo porro molestias illo rerum facilis libero atque tenetur.
+      </div>
+      <!------------------------------main-content------------------------->
+      <div class="main-content">
+        <!-----------------------------header ---------------------------->
+        <header>
+          <p id="headerH1">UseFull JavaScript Methods You Must Know!</p>
+          <p id="signatories">&copy;2024joeysayadi</p>
+        </header>
+
+        <div class="content" style="background-color: orange">
+          <div
+            class="introduction"
+            style="margin-top: 30px; padding: 20px 40px"
+          >
+            <p>
+              JavaScript is a programming language used to create web pages and
+              mobile apps. If you have been studying Javascript for so long and
+              still it looks scary to you, probably you haven't learnt these
+              methods yet. This article is for all javascript developers at any
+              level. If you are looking for a specific method, feel free to jump
+              and skip others. If you are familiar with javascript, I recommend
+              you to read
+              <span style="font-size: 15px; color: green; font-weight: bold">
+                ES6 The modern Javascript
+              </span>
+              to explore more about JS.
+            </p>
+          </div>
+          <div class="topics" style="padding: 1px 40px">
+            <p>1. <a href="#" id="anchorOne">Array</a></p>
+            <p>2. <a href="#" id="anchorOne">String</a></p>
+            <p>3. <a href="#" id="anchorOne">Objects</a></p>
+            <p>4. <a href="#" id="anchorOne">Numbers</a></p>
+            <p>5. <a href="#" id="anchorOne">ES6</a></p>
+          </div>
+        </div>
+
+        <div
+          class="paraChoose"
+          style="padding: 10px 40px; background-color: green"
+        >
+          <h3>
+            If you are already familiar with the definition of the above topics,
+            feel free to explore their methods only.
+          </h3>
+        </div>
+        <div
+          class="arrayDiv"
+          style="padding: 10px 40px; background-color: rebeccapurple"
+        >
+          <h2>Array</h2>
+          <p>
+            You may know that a variable can store only a value at a time, for
+            example var personName = "joey", this is totally fine and we may use
+            it many times while building a project, however, sometimes it is
+            required to collect many values in a single variable like a list of
+            students names, this is where we can use the Array concept. Array is
+            a single variable that store a list of values and each element is
+            specified by a single index.
+          </p>
+          <h5 style="font-size: 19px">Array methods</h5>
+        </div>
+
+        <!--------------------- POP() Method define area --------------->
+        <div class="popDiv" style="padding: 10px 40px">
+          <h2>. pop()</h2>
+          <p style="padding: 5px 0px">
+            The pop() method removes the last element of an array.
+          </p>
+        </div>
+
+        <!------------------- POP() Method script -------------->
+        <div
+          class="popTopic"
+          style="background-color: black; border-radius: 5px; padding: 20px"
+        >
+          <p>
+            <span id="varType">var</span>
+            <span id="varName">personName</span>
+            <span id="varSign">=</span>
+            <span id="bracket">[</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joey</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">Joel</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">James</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varComma">,</span>
+            <span id="varSingleQuote">'</span>
+            <span id="varPerson">John</span>
+            <span id="varSingleQuote">'</span>
+            <span id="bracket">]</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">personName</span>
+            <span id="period">.</span>
+            <span id="consolePrint">pop</span>
+            <span id="openParenthesisNoSpace">(</span>
+            <span id="closeParenthesisNoSpace">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+          <p>
+            <span id="consolePrint">console</span>
+            <span id="period">.</span>
+            <span id="consolePrint">log</span>
+            <span id="openParenthesis">(</span>
+            <span id="varName">personName</span>
+            <span id="closeParenthesis">)</span>
+            <span id="semiColonNoSpace">;</span>
+          </p>
+        </div>
+        <!------------------POP() Method printed output ----------------->
+        <div
+          class="popOutPut"
+          style="
+            background-color: black;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 15px;
+          "
+        >
+          <p id="paraColorWhite">Output :</p>
+          <p id="paraColorWhite">
+            [ ' Joey ' , ' Joel ' , ' James ' , ' John ' ]
+          </p>
+          <p id="paraColorWhite">[ ' Joey ' , ' Joel ' , ' James ' ]</p>
+        </div>
+
+        <div class="btn">
+          <a
+            href="pop.html"
+            target="_blank"
+            style="text-decoration: none; color: white; font-size: 13px"
+            >Try it yourself >>
+          </a>
+        </div>
+
+        <!-------------------------end of POP -------------------------------->
+        <!-------------------------------------------------------------------->
+
+        <!--------------------- Start of Shift Method ------------->
+        <!-------------------------------------------------------->
+        <div class="shiftDiv" style="margin-top: 30px">
+          <h2>. shift()</h2>
+          <p style="padding: 5px 0px">
+            The shift() method removes the first element from an array.
+          </p>
+        </div>
+
+        <!--------------------- end of center content -->
+      </div>
+
+      <!----------------------------------------right menu----------------------------------->
+      <div class="right-menu">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta iure
+        tempore repellat inventore officiis minima incidunt omnis voluptatem ut
+        veniam in pariatur, exercitationem laboriosam labore aspernatur
+        nesciunt, commodi deleniti debitis? Adipisci cumque officia accusamus
+        obcaecati ratione quasi, nihil totam ex accusantium odit perspiciatis
+        molestias asperiores id assumenda natus mollitia porro odio voluptatem
+        aut et minima eveniet qui. Fugit libero recusandae, enim, accusamus
+        inventore animi labore eum, ratione officia velit esse. Tempore
+        similique perferendis distinctio? Dignissimos, ut! Neque assumenda,
+        deserunt quisquam eum ullam reiciendis modi placeat deleniti animi,
+        earum veniam rem distinctio ipsam repudiandae suscipit fuga laudantium
+        maxime. Velit, reprehenderit quis.
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

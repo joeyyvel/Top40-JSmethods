@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-color: orange;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.left-menu {
+  background-color: blue;
+  width: 10%;
+}
+.main-content {
+  background-color: pink;
+  width: 70%;
+}
+
+.right-menu {
+  background-color: aqua;
+  width: 20%;
+}
